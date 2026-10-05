@@ -1,0 +1,13 @@
+## Resume
+<iframe
+  src="files/ying_andrew_resume.pdf"
+  style="width: 100%; height: 100vh; border: none;"
+  title="Resume">
+</iframe>
+
+## CV
+<iframe
+  src="files/ying_andrew_cv.pdf"
+  style="width: 100%; height: 100vh; border: none;"
+  title="Curriculum Vitae">
+</iframe>

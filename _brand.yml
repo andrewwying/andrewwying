@@ -1,0 +1,17 @@
+typography:
+  fonts:
+    - family: &main-font Asta Sans
+    # - family: &main-font Source Sans Pro
+    # - family: &main-font Murecho
+    # - family: &main-font Gothic A1
+    # - family: &main-font Noto Sans
+    # - family: &main-font Sen
+      source: bunny
+    - family: &mono-font Geist Mono
+      source: bunny
+  base:
+    family: *main-font
+  headings:
+    family: *main-font
+  monospace:
+    family: *mono-font

@@ -1,0 +1,242 @@
+/*-- scss:defaults --*/
+
+// ==========================================================================
+// Solarized Light for Quarto / Bootstrap
+//
+// Adapted from the Solarized Minima skin by Sander Voerman,
+// using Ethan Schoonover's Solarized color scheme.
+//
+// This preserves the WCAG-adjusted colors from the source skin.
+// ==========================================================================
+
+// Solarized palette
+// --------------------------------------------------------------------------
+
+$sol-base03:   #002b36;
+$sol-base02:   #073642;
+$sol-base01:   #586e75;
+$sol-base00:   #4e626a; // WCAG-adjusted; canonical Solarized is #657b83
+$sol-base0:    #91a0a1; // WCAG-adjusted; canonical Solarized is #839496
+$sol-base1:    #93a1a1;
+$sol-base2:    #eee8d5;
+$sol-base3:    #fdf6e3;
+
+$sol-yellow:   #b58900;
+$sol-orange:   #cb4b16;
+$sol-red:      #dc322f;
+$sol-magenta:  #d33682;
+$sol-violet:   #6c71c4;
+$sol-blue:     #268bd2;
+$sol-cyan:     #2aa198;
+$sol-green:    #859900;
+
+
+// WCAG-adjusted link colors from the original skin
+// --------------------------------------------------------------------------
+
+$sol-dark-blue:  #2072ac;
+$sol-dark-blue2: #376a8b;
+
+
+// Derived light colors from the original skin
+// --------------------------------------------------------------------------
+
+$sol-light-mix1: mix($sol-base1, $sol-base3);
+$sol-light-mix3: mix($sol-base2, $sol-base3);
+$sol-light-mix4: #e8e3d4;
+
+
+// Bootstrap: body
+// --------------------------------------------------------------------------
+
+$body-bg:    $sol-base3;
+$body-color: $sol-base00;
+
+
+// Bootstrap: links
+// --------------------------------------------------------------------------
+
+$link-color:       $sol-dark-blue;
+$link-hover-color: $sol-base00;
+
+
+// Bootstrap: headings
+// --------------------------------------------------------------------------
+
+$headings-color:  $sol-base01;
+$headings-font-weight: 500;
+
+
+// Bootstrap: borders
+// --------------------------------------------------------------------------
+
+$border-color: $sol-light-mix1;
+
+
+// Bootstrap: navbar
+// --------------------------------------------------------------------------
+
+// Same background as the page for a minimal academic appearance.
+$navbar-bg: $sol-base3;
+$navbar-fg: $sol-base00;
+
+$navbar-light-color:        $sol-base00;
+$navbar-light-hover-color:  $sol-base01;
+$navbar-light-active-color: $sol-base01;
+
+
+// Bootstrap: code
+// --------------------------------------------------------------------------
+
+$code-color: $sol-magenta;
+$code-bg:    $sol-light-mix3;
+
+
+// Bootstrap: tables
+// --------------------------------------------------------------------------
+
+$table-color:          $sol-base00;
+$table-border-color:   $sol-light-mix1;
+$table-striped-bg:     $sol-light-mix3;
+$table-hover-bg:       $sol-base2;
+
+
+// Bootstrap: forms
+// --------------------------------------------------------------------------
+
+$input-bg:           $sol-base3;
+$input-color:        $sol-base00;
+$input-border-color: $sol-light-mix1;
+
+$input-focus-border-color: $sol-blue;
+
+
+// Bootstrap: cards
+// --------------------------------------------------------------------------
+
+$card-bg:           $sol-base3;
+$card-border-color: $sol-light-mix1;
+
+
+// Bootstrap: miscellaneous
+// --------------------------------------------------------------------------
+
+$hr-color: $sol-base1;
+
+$mark-bg: #ffffcc;
+
+$blockquote-footer-color: $sol-base01;
+
+
+/*-- scss:rules --*/
+
+
+// Visited links
+// --------------------------------------------------------------------------
+
+main a:visited {
+  color: $sol-dark-blue2;
+}
+
+
+// Selection
+// --------------------------------------------------------------------------
+
+::selection {
+  background-color: $sol-base2;
+  color: $sol-base01;
+}
+
+
+// Code blocks
+// --------------------------------------------------------------------------
+
+pre {
+  background-color: $sol-light-mix3;
+  border-color: $sol-light-mix1;
+}
+
+
+// Blockquotes
+// --------------------------------------------------------------------------
+
+blockquote {
+  color: $sol-base00;
+  border-left-color: $sol-base1;
+}
+
+
+// Tables
+// --------------------------------------------------------------------------
+
+.table {
+  --bs-table-color: #{$sol-base00};
+  --bs-table-bg: #{$sol-base3};
+  --bs-table-striped-bg: #{$sol-light-mix3};
+  --bs-table-border-color: #{$sol-light-mix1};
+}
+
+
+// Quarto-specific elements
+// --------------------------------------------------------------------------
+
+.quarto-title-meta {
+  color: $sol-base01;
+}
+
+.sidebar {
+  color: $sol-base00;
+}
+
+.sidebar a {
+  color: $sol-base00;
+}
+
+.sidebar a:hover,
+.sidebar a.active {
+  color: $sol-dark-blue;
+}
+
+
+// About-page links
+// --------------------------------------------------------------------------
+
+.about-links .about-link {
+  color: $sol-dark-blue;
+  border-color: $sol-light-mix1;
+}
+
+.about-links .about-link:hover {
+  color: $sol-base00;
+  border-color: $sol-base1;
+}
+
+.about-image {
+  clip-path: polygon(
+    50% 0%,
+    93.3% 25%,
+    93.3% 75%,
+    50% 100%,
+    6.7% 75%,
+    6.7% 25%
+  );
+}
+
+.about-image {
+  clip-path: polygon(
+    50% 0%,
+    93.3% 25%,
+    93.3% 75%,
+    50% 100%,
+    6.7% 75%,
+    6.7% 25%
+  );
+}
+
+// Footer
+// --------------------------------------------------------------------------
+
+.nav-footer {
+  color: $sol-base01;
+  border-top-color: $sol-light-mix1;
+}

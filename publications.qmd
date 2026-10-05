@@ -1,0 +1,14 @@
+---
+bibliography: publications.bib
+nocite: '@*'
+csl: ieee.csl
+citeproc: false
+filters:
+  - bold_name.lua
+  - equal_contrib.lua
+---
+
+## Publications
+
+::: {#refs}
+:::

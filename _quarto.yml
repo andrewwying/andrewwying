@@ -1,0 +1,23 @@
+project:
+  type: website
+
+website:
+  title: "Andrew Ying"
+  navbar:
+    left:
+      - href: index.qmd
+        text: About
+      - publications.qmd
+      - href: resume_cv.qmd
+        text: Resume/CV
+
+format:
+  html:
+    theme:
+      light: solarized.scss
+      dark: solar
+    css: styles.css
+    toc: true
+
+
+

@@ -1,0 +1,26 @@
+---
+title: "Andrew Ying"
+subtitle: CS PhD @ Vanderbilt University
+about:
+  id: hero-heading
+  template: solana
+  image: https://media.licdn.com/dms/image/v2/D5603AQGp3DXS2qzkSw/profile-displayphoto-scale_200_200/B56aEJNOAvLEAc-/0/1791155825550?e=1792627200&v=beta&t=y30CtB4NQ7vdqUNmuKdfvcp3Ud7Elp85WNAUNz73q3E
+  image-shape: rectangle
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/andrew-ying-0982ba1b9/
+    - icon: github
+      text: GitHub
+      href: https://github.com/andrewwying/
+    - text: "{{< ai google-scholar >}} Google Scholar"
+      href: https://scholar.google.com/citations?hl=en&user=saK9tBkAAAAJ
+    - text: "{{< ai orcid >}} ORCiD"
+      url: https://orcid.org/0009-0002-6506-2870
+    - text: "{{< fa envelope >}} Email"
+      url: mailto:andrew.w.ying@vanderbilt.edu
+---
+
+I am a first-year **CS PhD** student at **Vanderbilt University** in the [Machine Automation, Perception, and Learning (MAPLE)](https://vu-maple-lab.github.io/) Lab. I am advised by **Dr. Jie Ying Wu**.
+
+Previously, I was a **BS/MSE** student at **Johns Hopkins University**, where I double majored in **Biomedical Engineering** and **Computer Engineering**. There, I researched **surgical simulation** in deformable and occluded environments under the mentorship of **Dr. Adnan Munawar** and **Dr. Russell Taylor**.
